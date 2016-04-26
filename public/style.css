@@ -1,0 +1,133 @@
+.product{ background-color: rgba(119,136,153,0.1); padding: 15px; -moz-border-radius: 15px; border-radius: 15px;}
+.product p{ font-size: 14; color:Black; border-radius: 25px; opacity: 1.0 !Important;}
+
+.article { padding: 15px; background-color: rgba(119,136,153,0.1); border:rgba(119,136,153); -moz-border-radius: 15px; border-radius: 15px;}
+.article button{ position: relative; margin-left:200px; }
+/*.article p{ overflow: hidden; height: 50em;}*/
+
+body {background-color: pink;}
+
+.carousel img {
+  position: relative;
+  min-width: 100%;
+}
+
+#header {
+    background: url('https://mycustomblob.blob.core.windows.net/testblobcontainerstorage/head_bg') repeat-x;
+    height: 85px;
+}
+#header img {align-items: center;}
+
+.contentBoxPageHeader {
+    -webkit-box-shadow: 0 2px 4px 0 hsla(0,0%,60%,.65);
+    -moz-box-shadow: 0 2px 4px 0 hsla(0,0%,60%,.65);
+    box-shadow: 0px 2px 4px 0px hsla(0, 0%, 60%, 0.65);
+    border-top-color: #003151;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-top: 5px solid #003151;
+    background-color: #fff;
+    color: red;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-align: center;
+    font-family: Brush Script MT;
+    font-size:14px;
+    font-weight: 600;
+}
+
+.contentBox {
+    -webkit-box-shadow: 0 2px 4px 0 hsla(0,0%,60%,.65);
+    -moz-box-shadow: 0 2px 4px 0 hsla(0,0%,60%,.65);
+    box-shadow: 0px 2px 4px 0px hsla(0, 0%, 60%, 0.65);
+    border-top-color: #003151;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 35px;
+    margin-top: 10px;
+    border-top: 5px solid #003151;
+    background-color: #fff;
+    color: #003151;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-family: Calibri;
+    font-size:19px;
+    font-weight: 600;
+}
+
+.contentBox_ArticleHeader {
+    font-family: HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-weight: 700;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 2.25em;
+    line-height: 2.47em;
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+    font-weight: light;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #003151;
+}
+
+.contentBox_text{
+    
+}
+
+.contentBox_wrapper{
+    
+}
+.contentBox_header { border-bottom: 1px solid red}
+
+
+.contentBox__supertitle {
+    font-family: HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1em;
+    line-height: 1.1em;
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: red;
+}
+
+
+
+.globalHeader { background: url('https://mycustomblob.blob.core.windows.net/testblobcontainerstorage/top_nav_bg') repeat-x;
+background-size: 100%; 
+border-color: #0b3e72 !important;
+border-radius: 0px !important;}
+
+.globalHeader .navbar-brand
+{
+    color:white !important;
+}
+
+.globalHeader .navbar-nav > li > a
+{
+    color:white !important;
+}
+
+.globalHeader .navbar-nav > .active > a, .globalHeader .navbar-nav > .active > a:hover, .globalHeader .navbar-nav > .active > a:focus
+{
+    color: #0b3e72 !important;
+    background-color: white !important;
+}
+
+/*
+  .affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .globalHeader {
+      margin-top: 85px;
+  }
+  */
